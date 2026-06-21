@@ -3,45 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temporis | AI Tools for Better Decisions</title>
-    <meta name="description" content="Temporis helps people uncover patterns, understand what may happen next, and make better decisions. Explore the products, research, and company.">
-    <link rel="icon" href="logo.svg" type="image/svg+xml">
-    <link rel="stylesheet" href="styles.css">
+    <title>Temporis | The Shared Prediction Layer for Business</title>
+    <meta name="description" content="Temporis predicts what happens next from your private business data. Connect your data, get predictions back where you work — no model to build, no stack to maintain.">
+    <link rel="icon" href="/logo.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="/styles.css">
 </head>
 <body class="page-home">
     <header class="site-header">
         <div class="header-inner">
-            <a class="site-logo site-logo-header" href="index.html" aria-label="Temporis home">
-                <img class="site-logo-mark" src="logo.svg" alt="Temporis logo">
-                <span class="site-logo-text">
-                    <span class="site-logo-name">Temporis</span>
-                </span>
+            <a class="site-brand" href="/" aria-label="Temporis home">
+                <img class="site-logo" src="/logo.svg" alt="Temporis logo">
+                <span class="site-brand-text">Temporis</span>
             </a>
-            <div class="site-nav site-nav-desktop">
-                <nav aria-label="Primary">
-                    <ul class="nav-list">
-                        <li><a href="product.html">Products</a></li>
-                        <li><a href="research.html">Research</a></li>
-                        <li><a href="company.html">Company</a></li>
-                        <li><a class="nav-try" href="https://vista.temporis.co" target="_blank" rel="noopener noreferrer">Try Vista</a></li>
-                    </ul>
-                </nav>
+            <nav class="site-nav desktop-nav" aria-label="Primary">
+                <a href="/use-cases/">Use cases</a>
+                <a href="https://docs.temporis.co" target="_blank" rel="noopener noreferrer">Docs</a>
+                <a href="/company/">Company</a>
+            </nav>
+            <div class="header-actions desktop-actions">
+                <a class="button button-primary" href="https://platform.temporis.co" target="_blank" rel="noopener noreferrer">Log in to platform</a>
             </div>
-            <div class="site-nav-mobile">
+            <div class="mobile-shell">
                 <details class="mobile-nav">
                     <summary aria-label="Open navigation menu">Menu</summary>
-                    <nav aria-label="Mobile">
-                        <ul class="mobile-menu-list">
-                            <li><a href="product.html">Products</a></li>
-                            <li><a href="research.html">Research</a></li>
-                            <li><a href="company.html">Company</a></li>
-                        </ul>
+                    <nav class="mobile-menu" aria-label="Mobile">
+                        <a href="/use-cases/">Use cases</a>
+                        <a href="https://docs.temporis.co" target="_blank" rel="noopener noreferrer">Docs</a>
+                        <a href="/company/">Company</a>
+                        <a href="https://platform.temporis.co" target="_blank" rel="noopener noreferrer">Log in to platform</a>
                     </nav>
                 </details>
-                <a class="site-logo site-logo-mobile" href="index.html" aria-label="Temporis home">
-                    <img class="site-logo-mark" src="logo.svg" alt="Temporis logo">
-                </a>
-                <a class="nav-try mobile-try" href="https://vista.temporis.co" target="_blank" rel="noopener noreferrer">Try Vista</a>
             </div>
         </div>
     </header>
@@ -50,43 +41,165 @@
         <section class="hero">
             <div class="section-shell hero-grid">
                 <div class="hero-copy">
-                    <div class="eyebrow">Temporis</div>
-                    <h1>Uncover patterns. Make better decisions.</h1>
-                    <p>Temporis helps people uncover patterns in things like prices and demand, and make better decisions.</p>
+                    <h1>Predict what happens next from your private business data.</h1>
+                    <p class="lead">Temporis is the shared prediction layer. Connect your data and get predictions back where you work &mdash; no model to build.</p>
+                    <div class="hero-actions">
+                        <a class="button button-primary" href="https://platform.temporis.co" target="_blank" rel="noopener noreferrer">Log in to platform</a>
+                    </div>
+                </div>
+                <div class="hero-shot">
+                    <img src="/platform-overview.png" alt="Temporis platform overview showing the getting-started prediction workflow">
                 </div>
             </div>
         </section>
 
-        <section class="section alt">
+        <section class="section">
+            <div class="section-shell proof-band">
+                <div class="proof-item">
+                    <strong>One model</strong>
+                    <span>Predicts across domains. No custom build.</span>
+                </div>
+                <div class="proof-item">
+                    <strong>Your private data</strong>
+                    <span>Grounded in data you already own.</span>
+                </div>
+                <div class="proof-item">
+                    <strong>Scaled by compute</strong>
+                    <span>More capability, not another ML team.</span>
+                </div>
+                <div class="proof-item">
+                    <strong>Built to integrate</strong>
+                    <span>Predictions land where decisions happen.</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="how">
+            <div class="section-shell showcase-grid">
+                <div class="scene-copy">
+                    <h2>How it works</h2>
+                    <p>Your data in, predictions out. Temporis sits in the middle.</p>
+                    <div class="story-stack">
+                        <div class="story-step">
+                            <span>01</span>
+                            <div>
+                                <h3>Connect</h3>
+                                <p>Plug in the data you already have.</p>
+                            </div>
+                        </div>
+                        <div class="story-step">
+                            <span>02</span>
+                            <div>
+                                <h3>Predict</h3>
+                                <p>One model forecasts what comes next.</p>
+                            </div>
+                        </div>
+                        <div class="story-step">
+                            <span>03</span>
+                            <div>
+                                <h3>Deliver</h3>
+                                <p>Results flow back into your tools.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="wide-visual dark">
+                    <div class="visual-shell">
+                        <div class="visual-row">
+                            <div class="mini-panel"><p><strong>Recommendations</strong></p></div>
+                            <div class="mini-panel"><p><strong>Support</strong></p></div>
+                            <div class="mini-panel"><p><strong>Inventory</strong></p></div>
+                        </div>
+                        <div class="mini-panel">
+                            <span class="mini-label">The layer in the middle</span>
+                            <p><strong>Temporis prediction layer</strong></p>
+                        </div>
+                        <div class="visual-row">
+                            <div class="mini-panel"><p><strong>Shopify</strong></p></div>
+                            <div class="mini-panel"><p><strong>Stripe</strong></p></div>
+                            <div class="mini-panel"><p><strong>Cloud</strong></p></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section scene-soft">
             <div class="section-shell">
-                <div class="section-intro">
-                    <div class="eyebrow">What Temporis Is</div>
-                    <h2>Temporis is an AI company focused on forecasting.</h2>
-                    <p>The company connects research and products from the start, so forecasting becomes something people can use.</p>
+                <div class="section-head">
+                    <h2>What you can predict.</h2>
+                    <p>One layer, many prediction problems. <a href="/use-cases/">Explore all use cases &rarr;</a></p>
+                </div>
+                <div class="card-grid">
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>Demand &amp; sales</strong>
+                        <h3>Forecast what customers will buy.</h3>
+                        <p>Plan inventory, staffing, and spend against what is actually coming.</p>
+                    </a>
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>Recommendations</strong>
+                        <h3>Predict what to show each user.</h3>
+                        <p>Turn behavior into recommendations that fit the moment.</p>
+                    </a>
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>AI agents</strong>
+                        <h3>Know cost and success up front.</h3>
+                        <p>Predict an agent's cost and success rate before it runs.</p>
+                    </a>
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>Churn &amp; retention</strong>
+                        <h3>See who is about to leave.</h3>
+                        <p>Act on the customers most likely to churn, earlier.</p>
+                    </a>
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>Inventory &amp; supply</strong>
+                        <h3>Stock the right things.</h3>
+                        <p>Predict what to hold and when to reorder.</p>
+                    </a>
+                    <a class="resource-card" href="/use-cases/">
+                        <strong>Usage &amp; cost</strong>
+                        <h3>Stay ahead of spend.</h3>
+                        <p>Forecast usage and cost before they surprise you.</p>
+                    </a>
                 </div>
             </div>
         </section>
 
         <section class="section">
             <div class="section-shell">
-                <div class="section-intro">
-                    <div class="eyebrow">Why It Matters</div>
-                    <h2>Better forecasting leads to better decisions.</h2>
-                    <p>Better forecasting gives people more context for important decisions. Temporis exists to make that capability easier to access and more useful in the real world.</p>
+                <div class="section-head">
+                    <h2>Two ways to start.</h2>
                 </div>
-                <div class="pair-grid">
-                    <div class="surface-panel">
-                        <h3>Patterns before action</h3>
-                        <p>When people can see patterns more clearly, they are better equipped to judge what matters, what is changing, and what may happen next.</p>
-                    </div>
-                    <div class="surface-panel">
-                        <h3>Broader access</h3>
-                        <p>Strong forecasting tools are often hard to access and hard to use. Temporis aims to make them easier to reach through products people can actually use.</p>
-                    </div>
+                <div class="faq-grid">
+                    <article class="feature-card">
+                        <strong>For businesses</strong>
+                        <h3>Bring us the outcome you need to predict.</h3>
+                        <p>We run a paid pilot and build the prediction into your workflow with you. Successful pilots grow into ongoing contracts.</p>
+                        <p>Email us at <a href="mailto:hello@temporis.co">hello@temporis.co</a>.</p>
+                    </article>
+                    <article class="feature-card">
+                        <strong>For developers</strong>
+                        <h3>Build on the prediction API.</h3>
+                        <p>Connect your data, call predictions, and pay by usage. Control model behavior through parameters and integrate it anywhere.</p>
+                        <p><a class="button button-secondary" href="https://docs.temporis.co" target="_blank" rel="noopener noreferrer">Read the docs</a></p>
+                    </article>
                 </div>
             </div>
         </section>
 
+        <section class="section">
+            <div class="section-shell">
+                <div class="cta-band">
+                    <div>
+                        <h2>Tell us what you need to predict.</h2>
+                        <p>Log in to start on the platform, or email <a href="mailto:hello@temporis.co">hello@temporis.co</a>.</p>
+                    </div>
+                    <div class="cta-actions">
+                        <a class="button button-primary" href="https://platform.temporis.co" target="_blank" rel="noopener noreferrer">Log in to platform</a>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer class="site-footer">
@@ -94,19 +207,28 @@
             <div class="footer-grid">
                 <div class="footer-column">
                     <h3>Temporis</h3>
-                    <div class="footer-body">AI forecasting solutions</div>
+                    <p>The shared prediction layer for business.</p>
                 </div>
                 <div class="footer-column">
-                    <h3>Contact</h3>
-                    <div class="footer-body"><a href="mailto:hello@temporis.co">hello@temporis.co</a></div>
+                    <h3>Product</h3>
+                    <a href="/use-cases/">Use cases</a>
+                    <a href="https://docs.temporis.co" target="_blank" rel="noopener noreferrer">Docs</a>
+                    <a href="https://platform.temporis.co" target="_blank" rel="noopener noreferrer">Log in to platform</a>
+                </div>
+                <div class="footer-column">
+                    <h3>Company</h3>
+                    <a href="/company/">About</a>
+                    <a href="mailto:hello@temporis.co">hello@temporis.co</a>
                 </div>
                 <div class="footer-column">
                     <h3>Legal</h3>
-                    <div class="footer-body"><a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></div>
+                    <a href="/privacy/">Privacy</a>
+                    <a href="/terms/">Terms</a>
                 </div>
             </div>
             <div class="footer-meta">
                 <span>&copy; 2026 Temporis. All rights reserved.</span>
+                <span>Building the shared prediction layer for business.</span>
             </div>
         </div>
     </footer>

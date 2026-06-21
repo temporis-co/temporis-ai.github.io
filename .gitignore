@@ -1,2 +1,10 @@
 .DS_Store
 venv/
+.playwright-mcp/
+
+# Internal & sensitive — never commit or deploy
+*.pdf
+stripe-home.png
+
+# Internal planning docs — kept locally, not part of the public site
+docs/
